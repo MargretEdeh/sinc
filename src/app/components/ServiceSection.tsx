@@ -1,8 +1,8 @@
 import * as React from "react";
 import CardLayout from "./CardLayout";
 import triangle from "../../../public/triangle.png";
-import polygon from "../../../public/Polygon.png";
-import trapizuim from "../../../public/Trapizuim.png";
+import polygon from "../../../public/polygon.png";
+import trapizuim from "../../../public/trapizuim.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 import Link from "next/link";
