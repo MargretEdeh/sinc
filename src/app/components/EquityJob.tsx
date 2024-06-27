@@ -19,7 +19,7 @@ const Equity: React.FunctionComponent<IEquityProps> = (props) => {
       </div>
       <div className="flex flex-col md:flex-row items-center gap-5 ">
         {jobPositions.map((data,i)=>(
-            <div className="w-full flex flex-col gap-3 shadow-lg bg-white rounded-xl px-3 py-5 " >
+            <div key={data.stipend} className="w-full flex flex-col gap-3 shadow-lg bg-white rounded-xl px-3 py-5 " >
                 <Image src={data.imageSrc} alt="logo"/>
                 <p className=" text-sm">This company is a SAAS Startup that builds AI copy generator... </p>
                 <p className=" text-md font-semibold">{data.role} </p>
